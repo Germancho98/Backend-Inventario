@@ -15,35 +15,14 @@ Este proyecto es un sistema de inventario desarrollado con Node.js, Express y Mo
 - **Supertest**: Biblioteca para probar aplicaciones HTTP.
 
 ## Estructura del Proyecto
-Backend/ 
-├── controllers/ │ 
-    ├── categoryController.js │ 
-    ├── historyController.js │ 
-    ├── movementController.js │ 
-    ├── productController.js 
-    │ └── userController.js 
-├── models/ │ 
-    ├── category.js │ 
-    ├── history.js │ 
-    ├── movement.js │ 
-    ├── product.js │ 
-    └── user.js 
-├── routes/ │ 
-    ├── categoryRoutes.js │ 
-    ├── historyRoutes.js │ 
-    ├── movementRoutes.js │ 
-    ├── productRoutes.js │ 
-    └── userRoutes.js 
-├── test/ │ 
-    ├── categoryController.test.js │ 
-    ├── historyController.test.js │ 
-    ├── movementController.test.js │ 
-    ├── productController.test.js │ 
-    └── userController.test.js 
-├── .env 
-├── app.js 
-├── package.json
 
+Esta estructura separa las diferentes responsabilidades de la aplicación:
+- **controllers/**: Contiene la lógica para manejar las solicitudes y respuestas.
+- **models/**: Define los esquemas y modelos de la base de datos.
+- **routes/**: Mapea las rutas a los controladores apropiados.
+- **test/**: Incluye pruebas unitarias para los controladores.
+- **app.js**: Punto de entrada principal para la aplicación backend.
+- **package.json**: Define las dependencias y scripts del proyecto.
 
 ## Configuración del Proyecto
 
